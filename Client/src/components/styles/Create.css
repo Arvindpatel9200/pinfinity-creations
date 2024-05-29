@@ -1,0 +1,45 @@
+.create-pin {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-pin h1 {
+    margin-top: 0;
+  }
+  
+  .create-pin label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .create-pin input[type="text"],
+  .create-pin textarea,
+  .create-pin select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .create-pin input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .create-pin button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-pin button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
